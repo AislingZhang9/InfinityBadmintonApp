@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Badminton App</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="name">Name:</string>
+    <string name="topic">Topic:</string>
+    <string name="description_and_question">Description and Question:</string>
+    <string name="send">Send</string>
+    <string name="coach_advice_activity_description">To request coach\'s advice to improve techniques and to receive training guidance, please submit the form and our coach will contact you by email.</string>
+    <string name="coachs_advice">Coach\'s Advice</string>
+    <string name="badminton_tutorials">Badminton Tutorials</string>
+    <string name="training_advice">Training Advice</string>
+    <string name="email_edit_text">Email: (only if different from sign up)</string>
+</resources>

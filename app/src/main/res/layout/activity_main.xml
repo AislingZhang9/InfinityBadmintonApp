@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/badminton_emoji"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:padding="8dp"
+            android:src="@drawable/badminton" />
+        <TextView
+            android:layout_toRightOf="@id/badminton_emoji"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/badminton_tutorials"
+            android:textColor="@android:color/black"
+            android:padding="16dp"
+            android:textSize="22sp"
+            android:freezesText="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/register_emoji"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:padding="8dp"
+            android:src="@drawable/register" />
+        <TextView
+            android:layout_toRightOf="@id/register_emoji"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coaches"
+            android:padding="16dp"
+            android:textSize="22sp"
+            android:freezesText="true"
+            android:textColor="@android:color/black" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/light_emoji"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:padding="8dp"
+            android:src="@drawable/light" />
+        <TextView
+            android:onClick="requestTrainingAdvice"
+            android:layout_toRightOf="@id/light_emoji"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/training_advice"
+            android:textColor="@android:color/black"
+            android:padding="16dp"
+            android:textSize="22sp"
+            android:freezesText="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/tournament_emoji"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:padding="8dp"
+            android:src="@drawable/tournament" />
+        <TextView
+            android:layout_toRightOf="@id/tournament_emoji"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tournaments"
+            android:textColor="@android:color/black"
+            android:padding="16dp"
+            android:textSize="22sp"
+            android:freezesText="true"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/search_emoji"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:padding="8dp"
+            android:src="@drawable/search" />
+        <TextView
+            android:layout_toRightOf="@id/search_emoji"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Court Search"
+            android:padding="16dp"
+            android:textSize="22sp"
+            android:freezesText="true"
+            android:textColor="@android:color/black"
+            android:onClick="courtSearch"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/email_emoji"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:padding="8dp"
+            android:src="@drawable/email" />
+        <TextView
+            android:layout_toRightOf="@id/email_emoji"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact us"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:freezesText="true"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
